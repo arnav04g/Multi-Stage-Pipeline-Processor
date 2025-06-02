@@ -2,8 +2,8 @@
 module RegisterFile (
     input wire clk,
     input wire reset,
-    input wire [3:0] rs1, // Read address 1
-    input wire [3:0] rs2, // Read address 2
+    input wire [3:0] rs1, 
+    input wire [3:0] rs2, 
     input wire [3:0] rd,  // Write address
     input wire [31:0] writeData, // Data to write
     input wire isWb,      // Writeback enable
