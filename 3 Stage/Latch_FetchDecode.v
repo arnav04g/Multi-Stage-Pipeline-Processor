@@ -7,7 +7,7 @@ module Latch_FetchDecode (
     output reg [31:0] instructionD,
     output reg [31:0] PCD
 );
-
+//Latch for fectch decode
 always @(posedge clk or posedge reset) begin
     if(stall == 0) begin
     instructionD <= instructionF;
