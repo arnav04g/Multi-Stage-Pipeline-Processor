@@ -47,9 +47,10 @@ ALU alu(
     .isLsl(isLsl),         // Control signal for left shift logical
     .isLsr(isLsr),         // Control signal for right shift logical
     .isAsr(isAsr),         // Control signal for arithmetic shift right
-    .flag_eq(aluFlag_eq),
-    .flag_gt(aluFlag_gt),  // Flags output from ALU
+    .flag_eq(aluFlag_eq),  // Flags output from ALU
+    .flag_gt(aluFlag_gt),  // Result of ALU operation
     .aluResult(aluOut)     // Result of ALU operation
+        
 );
 
 // Branch outcome logic
