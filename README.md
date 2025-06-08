@@ -65,3 +65,10 @@ The processor executes instructions in a pipeline, allowing overlapping of diffe
 │ ├─ RegisterFile.v
 │ └─ out.vvp
 └─ README.md
+
+To run this 
+1. Download the file 
+2. Open in VSCode or any IDE
+3. Run the following command : 
+iverilog -o out.vvp ProcessorCore_TB.v ProcessorCore.v
+vvp out.vvp
