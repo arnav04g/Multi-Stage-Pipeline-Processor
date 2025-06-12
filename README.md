@@ -22,7 +22,6 @@ The processor executes instructions in a pipeline, allowing overlapping of diffe
 ---
 
 ## 🔹Directory Structure
-
 ├── 2 Stage/
 │ ├─ ALU.v
 │ ├─ ControlUnit.v
