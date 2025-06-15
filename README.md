@@ -1,3 +1,7 @@
+# ARNAV GUPTA
+# 23114010
+# COMPUTER SCIENCE ENGINEERING
+
 # Pipelined Processor
 
 This repository contains a Verilog implementation of a **pipelined processor** with **2-stage, 3-stage, and 4-stage pipeline variants**.  
